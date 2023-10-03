@@ -33,7 +33,7 @@ db.books.insertMoney([
 db.books.find({ name: { $in: ['title'] } });
 ```
 
-### Pапрос для _редактирования_ полей: _description_ и _authors_ коллекции **books** по _\_id_ записи
+### Запрос для _редактирования_ полей: _description_ и _authors_ коллекции **books** по _\_id_ записи
 
 ```javascript
 db.books.updateOne(
